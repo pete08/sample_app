@@ -16,8 +16,6 @@ namespace :api do
   get "/time" => "example_pages#time"
 end
 
-
-
 namespace :api do
   get "/foods" => "example_pages#list_of_foods"
 end

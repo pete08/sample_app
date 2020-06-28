@@ -1,6 +1,7 @@
 class Api::ExamplePagesController < ApplicationController
   def hello
-    render json: {message: "hello there", time:Time.new}
+    @message = {message: "hello there", time:Time.new}
+    render 'hello.json.jb'
   end
   def time
     @time_message = Time.new
