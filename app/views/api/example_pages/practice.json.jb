@@ -1,0 +1,4 @@
+{
+  message: @message,
+  time: @time_message
+}
